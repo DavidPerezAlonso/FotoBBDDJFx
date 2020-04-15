@@ -133,7 +133,6 @@ public class ConexionBBDD {
 			pstmt.setString(1, nombre);
 			ResultSet resultado = pstmt.executeQuery();
 
-
 			int contador = 0;
 			while(resultado.next()){
 				contador++;
@@ -145,9 +144,6 @@ public class ConexionBBDD {
 
 			if(contador==0)
 				System.out.println("no data found");
-
-
-
 
 		}catch(SQLException sqle){
 
