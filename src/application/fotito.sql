@@ -1,0 +1,4 @@
+CREATE TABLE  "FOTITOS"
+   (	"NOMBRE" VARCHAR2(50),
+	"FOTO" BLOB
+   ) ;
